@@ -66,7 +66,7 @@ d3.json(url, function(response) {
   }
 });
 
-//adding the 
+//adding the legend
 var legend = L.control({position:'bottomright'});
     legend.onAdd = function () {
       var div = L.DomUtil.create('div', 'info legend'),
